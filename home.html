@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="./css/home.css">
+    <title>Manipulador de Texto</title>
+</head>
+<body>
+    <div id="cabecalho">
+    </div>
+    
+    <div class="form"></div>
+        <div class="border">
+            <form action="index.php" method="POST">
+        
+                <p>Escolha um arquivo em branco, Modifique-o e Baixe!.</p>
+                <hr>
+                Escolha Seu .txt: 
+                <br>
+                <input type="file" name="FILE">
+
+                <br>
+                <br>
+                <br>
+
+                <select name="OPTION">
+                    <option value="modify" selected>Modificar</option> 
+                    <option value="line">Adicionar 1 Linha</option>
+                    <option value="delete">Apagar</option>
+                </select>
+
+                <br>
+                <br>
+        
+                Escreva seu texto:
+                <br>
+
+                <textarea name="DATA"></textarea>
+
+                <div class="button btn">
+                    <br>
+                    <input type="submit" value="Modificar">
+                </div>
+
+            </form>
+        </div>
+    </div>
+
+    
+</body>
+</html>
