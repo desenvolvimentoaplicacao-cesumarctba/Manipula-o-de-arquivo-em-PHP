@@ -1,3 +1,0 @@
-Executar em Linux:  chmod a+x StartLinux.sh 
-			./StartLinux.sh 
-
